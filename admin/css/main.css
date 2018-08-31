@@ -1,12 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Dosis:300|Lato:300,400,600,700|Roboto+Condensed:300,700|Open+Sans+Condensed:300,600|Open+Sans:400,300,600,700|Maven+Pro:400,700);
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css");
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-html, body {
+ body {
   background-color: #202B33;
   color: #738491;
   font-family: "Open Sans";
@@ -47,7 +40,7 @@ nav section ul li {
   position: relative;
   padding: 10px 0px;
 }
- ul li a{
+ a{
   text-decoration: none;
   color: #738491;
   }
