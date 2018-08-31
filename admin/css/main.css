@@ -100,7 +100,7 @@ article > header {
   height: 60px;
   border-bottom: 1px solid #2a3843;
 }
-article > header .title {
+ .title {
   float: left;
   font-size: 1.3rem;
   font-weight: 600;
@@ -146,26 +146,7 @@ article section > header {
   font-size: 1.1rem;
   font-weight: 600;
 }
-article section .chart {
-  height: 200px;
-}
-article section .inlineChart {
-  float: left;
-  width: 30%;
-  margin-bottom: 50px;
-}
-article section .inlineChart canvas {
-  float: left;
-}
-article section .inlineChart .info {
-  float: left;
-  padding-left: 20px;
-  padding-top: 16px;
-}
-article section .inlineChart .info .value {
-  font-size: 2.0rem;
-  color: #D3D3D3;
-}
+
 article section table {
   width: 100%;
 }

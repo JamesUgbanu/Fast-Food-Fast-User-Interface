@@ -1,0 +1,134 @@
+<html>
+<head>
+  <title>Order History Page</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<nav>
+  <header>Fast Food Fast</header>
+  <section>
+    <header>Orders</header>
+    <ul>
+      <li data-value="8"><a href="order.html">New Order</a></li>
+      <li><a href="order-history.html">Order History</a></li>
+    </ul>
+  </section>
+  <section>
+    <header>Foods</header>
+    <ul>
+       <li class="new"> <i class="fa fa-plus-circle"> </i><a href=""> Add New Food</a></li>
+      <li class="yellow"><a href="">All Food</a></li>
+    </ul>
+  </section>
+</nav>
+<article>
+  <header>
+    <div class="user"></div>
+    <div class="interval">
+      <ul>
+        <li class="active"><a href="">Logout</a></li>
+      </ul>
+    </div>
+  </header>
+
+ <div class="title">Order History Page</div>
+  <main>
+  <input class="tab" id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1">COMPLETED ORDERS</label>
+  <input class="tab" id="tab2" type="radio" name="tabs">
+  <label for="tab2">DECLINED ORDERS</label>
+  <input class="tab" id="tab3" type="radio" name="tabs">
+  <label for="tab3">PROCESSING ORDERS</label>
+    
+  <section class="orders" id="content1">
+    <table>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>Product Name</th>
+          <th>Desciption</th>
+          <th>Price</th>
+          <th>Date</th>
+          <th>Operation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Burger</td>
+          <td>Cooked</td>
+          <td>#2000</td>
+          <td>24-9-2018</td>
+          <td><a class="button delete">
+  <i class="fa fa-close"></i>
+  <strong>Delete</strong>
+</a></td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+      
+   <section class="orders" id="content2">
+    <table>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>Product Name</th>
+          <th>Desciption</th>
+          <th>Price</th>
+          <th>Date</th>
+          <th>Operation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Burger</td>
+          <td>Baked</td>
+          <td>#3000</td>
+          <td>24-9-2018</td>
+          <td><a class="button delete">
+  <i class="fa fa-close"></i>
+  <strong>Delete</strong>
+</a></td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+    <section class="orders" id="content3">
+    <table>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>Product Name</th>
+          <th>Desciption</th>
+          <th>Price</th>
+          <th>Date</th>
+          <th>Operation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Burger</td>
+          <td>Cooked</td>
+          <td>#2000</td>
+          <td>24-10-2018</td>
+          <td><a class="button complete">
+  <i class="fa fa-clock-o"></i>
+  <strong>Mark as Completed</strong>
+</a>
+  <a class="button delete">
+  <i class="fa fa-close"></i>
+  <strong>Delete</strong>
+</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  </main>
+
+</article>
+
+</html>
