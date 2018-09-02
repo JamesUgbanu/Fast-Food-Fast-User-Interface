@@ -117,7 +117,7 @@ header  li:hover {
   max-height: 230px;
   transition: all .25s ease-in;
 }
-.order-menu-item, .order-menu-item:hover{
+.order-menu-item{
   border: 2px solid red;
   position: absolute;
   padding: 10px 30%;
